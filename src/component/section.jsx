@@ -15,13 +15,14 @@ import maghsad9 from "../assets/img/maghsad9.jpg";
 import maghsad10 from "../assets/img/maghsad10.jpg";
 import maghsad11 from "../assets/img/maghsad11.jpg";
 import maghsad12 from "../assets/img/maghsad12.jpeg";
-import Safar_Card1 from "../assets/img/Safar_Card1.png"
-import Safar_Card2 from "../assets/img/Safar_Card2.png"
-import Safar_Card3 from "../assets/img/Safar_Card3.png"
-import Safar_Card4 from "../assets/img/Safar_Card4.png"
+import Safar_Card1 from "../assets/img/Safar_Card1.png";
+import Safar_Card2 from "../assets/img/Safar_Card2.png";
+import Safar_Card3 from "../assets/img/Safar_Card3.png";
+import Safar_Card4 from "../assets/img/Safar_Card4.png";
+import section4 from "../assets/img/section4.png";
 
 // Import Swiper React components
-import { Pagination,Autoplay, A11y } from "swiper/modules";
+import { Pagination, Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "../../node_modules/swiper/swiper.css";
@@ -170,7 +171,7 @@ export default function Section() {
       <div className="w-[80%] h-[200px] cursor-pointer">
         <Swiper
           // install Swiper modules
-          modules={[Pagination, Autoplay,A11y]}
+          modules={[Pagination, Autoplay, A11y]}
           spaceBetween={50}
           slidesPerView={2}
           Autoplay={true}
@@ -178,13 +179,69 @@ export default function Section() {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
-          <SwiperSlide><img src={Safar_Card1} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={Safar_Card2} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={Safar_Card3} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={Safar_Card4} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={Safar_Card1} alt="" /></SwiperSlide>
+          <SwiperSlide>
+            <img src={Safar_Card1} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Safar_Card2} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Safar_Card3} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Safar_Card4} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Safar_Card1} alt="" />
+          </SwiperSlide>
         </Swiper>
       </div>
+
+      {/* section4 */}
+      <div className="w-[100%] lg:w-[80%] md:mt-28">
+        <h2 className="text-[20px] font-bold px-3">
+          به دنبال چه نوع اقامتگاهی هستید؟
+        </h2>
+        <div className="flex justify-between mt-5">
+          <div className="w-[20%] border border-gray-300 rounded-xl text-center p-3 ml-3">
+            <i class="bi bi-house-heart-fill lg:text-[40px] font-black"></i>
+            <p className="text-[15px] lg:text-[20px] lg:font-bold">
+              کلبه سوئیسی
+            </p>
+          </div>
+          <div className="w-[20%] border border-gray-300 rounded-xl text-center p-3 ml-3">
+            <i class="bi bi-umbrella lg:text-[40px] font-black"></i>
+            <p className="text-[15px] lg:text-[20px] lg:font-bold">
+              ساحلی شمال
+            </p>
+          </div>
+          <div className="w-[20%] border border-gray-300 rounded-xl text-center p-3 ml-3">
+            <i class="bi bi-water lg:text-[40px] font-black"></i>
+            <p className="text-[15px] lg:text-[20px] lg:font-bold">استخردار</p>
+          </div>
+          <div className="w-[20%] border border-gray-300 rounded-xl text-center p-3 ml-3">
+            <i class="bi bi-tree lg:text-[40px] font-black"></i>
+            <p className="text-[15px] lg:text-[20px] lg:font-bold">
+              جنگلی شمال
+            </p>
+          </div>
+          <div className="w-[20%] border border-gray-300 rounded-xl text-center p-3 ml-3">
+            <i class="bi bi-house-fill lg:text-[40px] font-black"></i>
+            <p className="text-[15px] lg:text-[20px] lg:font-bold">
+              سوئیت مبله
+            </p>
+          </div>
+          <div className="w-[20%] border border-gray-300 rounded-xl text-center p-3 ml-3">
+            <i class="bi bi-shop lg:text-[40px] font-black"></i>
+            <p className="text-[15px] lg:text-[20px] lg:font-bold">هاستل</p>
+          </div>
+        </div>
+        <div className="mt-14">
+          <img src={section4} alt="" />
+        </div>
+      </div>
+
+      {/*  */}
     </section>
   );
 }
