@@ -262,10 +262,13 @@ export default function Section() {
         <div className="md:flex justify-between">
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_1} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -273,10 +276,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_2} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -284,10 +290,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_3} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -295,10 +304,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_4} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -308,15 +320,20 @@ export default function Section() {
 
       {/* section6 */}
       <div className="w-[100%] lg:w-[80%]  mt-20">
-        <h2 className="text-[25px] font-bold text-green-600">رزروهای آنی و قطعی</h2>
+        <h2 className="text-[25px] font-bold text-green-600">
+          رزروهای آنی و قطعی
+        </h2>
         <p className="my-5">بدون نیاز به تایید میزبان</p>
         <div className="md:flex justify-between">
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section6_1} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -324,10 +341,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section6_2} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -335,10 +355,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section6_3} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -346,10 +369,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section6_4} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -363,10 +389,13 @@ export default function Section() {
         <div className="md:flex justify-between">
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section7_1} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -374,10 +403,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section7_2} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -385,10 +417,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section7_3} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -396,10 +431,13 @@ export default function Section() {
 
           <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section7_4} alt="" />
-            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="text-[15px] text-gray-400 p-2">
+              <span className="text-[#2c859b] font-bold">4.3</span>امتیاز
+              کاربران (23نظر)
+            </p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
             <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
-            <p className="flex justify-between pt-4 px-3"> 
+            <p className="flex justify-between pt-4 px-3">
               <span>قیمت هر شب از</span>
               <span className="text-blue-600 font-bold ">13,680,000</span>
             </p>
@@ -407,6 +445,74 @@ export default function Section() {
         </div>
       </div>
 
+      {/* section8 */}
+      <div className="w-[100%] lg:w-[80%] mt-20">
+        <h2 className="text-[20px] font-bold my-5">سوالات متداول</h2>
+        <div className="border border-gray-300 rounded-2xl p-7">
+          <div className="h-[60px] overflow-hidden border-b border-gray-300 py-5">
+            <h2 className="flex justify-between text-[18px] font-bold pb-5 ">
+              <span>رزرو اینترنتی اقامتگاه در علی‌بابا چگونه است؟</span>
+              <i class="bi bi-chevron-down"></i>
+            </h2>
+            <p>
+              برای رزرو اقامتگاه کافیست وارد وب‌سایت یا اپلیکیشن علی‌بابا شوید.
+              روی گزینه «ویلا و اقامتگاه» بزنید. بعد از اینکه اطلاعاتی مانند
+              مقصد یا نوع اقامتگاهتان را تکمیل کردید، گزینه جستجو را بزنید و به
+              لیست کامل اقامتگاه‌ها دسترسی پیدا کنید. در نهایت اقامتگاه مدنظرتان
+              را انتخاب کنید و با انتخاب گزینه «مشاهده و رزرو» فرایند رزرو
+              اقامتگاه را تکمیل کنید.
+            </p>
+          </div>
+
+          <div className="h-[80px] overflow-hidden border-b border-gray-300 py-5">
+            <h2 className="flex justify-between text-[18px] font-bold py-5 ">
+              تاییدیه رزرو اقامتگاه در علی‌بابا چگونه است؟
+              <i class="bi bi-chevron-down"></i>
+            </h2>
+            <p>
+              واچر یا همان تاییدیه رزرو اقامتگاه یک رسید است که بعد از رزرو
+              اقامتگاه برای مهمان صادر می‌شود. واچر نشان می‌دهد که مهمان همه یا
+              بخشی از مبلغ اقامتش را پرداخت کرده است. توجه داشته باشید که واریز
+              مبلغ به‌معنای قطعی‌شدن رزرو نیست و بعد از رزرو اقامتگاه بعد از
+              تایید میزبان و صدور واچر، قطعی خواهد شد. برای هماهنگی‌های بیشتر،
+              اطلاعات رزرو و اطلاعات تماس میزبان و مهمان از طریق پیامک و ایمیل
+              برای هر دو طرف فرستاده می‌شود.
+            </p>
+          </div>
+
+          <div className="h-[80px] overflow-hidden border-b border-gray-300 py-5">
+            <h2 className="flex justify-between text-[18px] font-bold py-5 ">
+              رزرو اقامتگاه در علی‌بابا برای چه مدت زمانی امکان‌پذیر است؟
+              <i class="bi bi-chevron-down"></i>
+            </h2>
+            <p>
+            رزرو اقامتگاه از حداقل یک شب شروع می‌شود و تا دو ماه ادامه پیدا می‌کند.
+            </p>
+          </div>
+
+          <div className="h-[80px] overflow-hidden py-5">
+            <h2 className="flex justify-between text-[18px] font-bold py-5">
+              امکان رزرو اقامتگاه در کدام شهرها وجود دارد؟
+              <i class="bi bi-chevron-down"></i>
+            </h2>
+            <p>
+            از شمالی‌ترین نقطه کشور تا جنوبی‌ترین نقطه. از شرق تا غرب. کافیست مقصدتان را انتخاب کنید و اقامتگاه‌های علی‌بابا را ببینید.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* section9 */}
+      <div className="w-[80%] mt-20">
+        <h2 className="text-[20px] font-bold my-5">رزرو اقامتگاه</h2>
+        <p>اگر راهی سفر هستید و می‌خواهید برای آن برنامه‌ریزی کنید، احتمالا یکی از اولین اقداماتی که انجام می‌دهید جستجوی اقامتگاه است. شاید به‌دنبال یک اقامتگاه کوچک هستید که مناسب اسکان یک نفر باشد یا شاید هم می‌خواهید گروهی سفر کنید و به‌دنبال یک اقامتگاه بسیار بزرگ هستید؛ اقامتگاهی که تمام امکانات رفاهی را برای تجربه لوکس مسافرانش فراهم کرده باشد. <br /> <br />
+
+جدا از متراژ، فاکتورهای دیگری هم در رزرو اقامتگاه مطرح است؛ به‌عنوان مثال بعضی از مسافران ترجیح می‌دهند اقامتگاهی را انتخاب کنند که دسترسی خوبی به مراکز مهم شهر دارد. با این حساب اگر نیاز به خرید چیزی داشته باشند یا بخواهند خدمات درمانی فوری دریافت کنند به مشکل نخواهند خورد. <br /><br />
+
+برای بعضی دیگر از مسافران موضوع کاملا متفاوت است. آن‌ها ترجیح می‌دهند اقامتگاهی را رزرو کنند که کاملا با شهر فاصله دارد؛ یک اقامتگاه آرام و دنج، دور از شلوغی، آلودگی و سروصدا. لیست تمام‌وکمال اقامتگاه‌های علی‌بابا هر انتظاری که از یک اقامتگاه دارید را برآورده خواهد کرد. تنها کاری که لازم است انجام بدهید این است که در همین صفحه، مقصد یا نوع اقامتگاه مدنظرتان را جستجو کنید تا لیست بلند اقامتگاه‌ها را ببینید. حالا دیگر تنها کاری که لازم است انجام بدهید بررسی، مقایسه و انتخاب است. <br /><br />
+
+از آنجایی که لیست اقامتگاه‌های علی‌بابا بسیار زیاد است، شما می‌توانید با کمک فیلترهای وب‌سایت انتخاب‌هایتان را هدفمندتر کنید. دنبال کلبه هستید یا ویلا؟ اقامتگاه‌های بوم‌گردی را بیشتر می‌پسندید یا ترجیح می‌دهید سوئیت رزرو کنید؟ شاید هم با خانه‌های سنتی موافق‌تر هستید یا اصلا می‌خواهید یک آپارتمان برای اقامتتان انتخاب کنید. ممکن است هیچکدام از این گزینه‌ها برایتان جذاب نباشد و بخواهید مجتمع‌های اقامتی یا حتی مسافرخانه رزرو کنید. انتخابتان هر کدام که باشد، فقط کافیست آن را در فیلترهای وب‌سایت علی‌بابا علامت بزنید تا لیست نمایش محدودتر و هدفمندتر شود. علاوه بر این، فیلترهای پرکاربرد دیگری هم هستند که می‌توانند شما را در انتخاب اقامتگاه مدنظرتان راهنمایی کنند؛ مثلا اگر برای شما امکان برگزاری مراسم و مهمانی یا ورود حیوانات خانگی مسئله است، پس حتما تیک آن را فعال کنید تا فقط همان اقامتگاه‌ها را ببینید. جنگلی، روستایی، کوهستانی، شهری یا ساحلی؟ فرقی ندارد؛ لیست کامل اقامتگاه‌های علی‌بابا منتظر میزبانی از شماست.</p>
+      </div>
     </section>
   );
 }
