@@ -25,6 +25,16 @@ import section5_2 from "../assets/img/section5-2.jfif";
 import section5_3 from "../assets/img/section5-3.jpg";
 import section5_4 from "../assets/img/section5-4.jpg";
 
+import section6_1 from "../assets/img/section6-1.jpg";
+import section6_2 from "../assets/img/section6-2.jpg";
+import section6_3 from "../assets/img/section6-3.jpeg";
+import section6_4 from "../assets/img/section6-4.jfif";
+
+import section7_1 from "../assets/img/section7-1.jpg";
+import section7_2 from "../assets/img/section7-2.jpg";
+import section7_3 from "../assets/img/section7-3.jpeg";
+import section7_4 from "../assets/img/section7-4.jpg";
+
 // Import Swiper React components
 import { Pagination, Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -249,8 +259,8 @@ export default function Section() {
       <div className="w-[100%] lg:w-[80%] mt-20">
         <h2 className="text-[25px] font-bold">ویلا در کردان</h2>
         <p className="my-5">اقامتگاه هایی مناسب سفرهای خاص شما</p>
-        <div className="flex justify-between">
-          <div className="w-[25%] h-[350px] rounded-2xl border border-gray-300 ml-3">
+        <div className="md:flex justify-between">
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_1} alt="" />
             <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
@@ -261,7 +271,7 @@ export default function Section() {
             </p>
           </div>
 
-          <div className="w-[25%] h-[350px] rounded-2xl border border-gray-300 ml-3">
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_2} alt="" />
             <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
@@ -272,7 +282,7 @@ export default function Section() {
             </p>
           </div>
 
-          <div className="w-[25%] h-[350px] rounded-2xl border border-gray-300 ml-3">
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_3} alt="" />
             <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
@@ -283,7 +293,7 @@ export default function Section() {
             </p>
           </div>
 
-          <div className="w-[25%] h-[350px] rounded-2xl border border-gray-300 ml-3">
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
             <img className=" rounded-t-2xl" src={section5_4} alt="" />
             <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
             <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
@@ -297,6 +307,106 @@ export default function Section() {
       </div>
 
       {/* section6 */}
+      <div className="w-[100%] lg:w-[80%]  mt-20">
+        <h2 className="text-[25px] font-bold text-green-600">رزروهای آنی و قطعی</h2>
+        <p className="my-5">بدون نیاز به تایید میزبان</p>
+        <div className="md:flex justify-between">
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section6_1} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section6_2} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section6_3} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section6_4} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* section7 */}
+      <div className="w-[100%] md:w-[80%]  mt-20">
+        <h2 className="text-[25px] font-bold my-5">ویلا در رامسر</h2>
+        <div className="md:flex justify-between">
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section7_1} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section7_2} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section7_3} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+
+          <div className="md:w-[25%] md:h-[350px] rounded-2xl border border-gray-300 ml-3 mt-5">
+            <img className=" rounded-t-2xl" src={section7_4} alt="" />
+            <p className="text-[15px] text-gray-400 p-2"><span className="text-[#2c859b] font-bold">4.3</span>امتیاز کاربران (23نظر)</p>
+            <p className="pr-2">رزرو ویلا دوخوابه استخردار آبگرم اقاقیا 1</p>
+            <p className="text-[13px] text-gray-400 pr-2">چهارباغ، البرز</p>
+            <p className="flex justify-between pt-4 px-3"> 
+              <span>قیمت هر شب از</span>
+              <span className="text-blue-600 font-bold ">13,680,000</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 }
