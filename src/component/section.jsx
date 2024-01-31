@@ -3,10 +3,23 @@ import villa1 from '../assets/img/villa1.png'
 import villa2 from '../assets/img/villa2.png'
 import villa3 from '../assets/img/villa3.png'
 import villa4 from '../assets/img/villa4.png'
+import maghsad1 from '../assets/img/maghsad1.jpg'
+import maghsad2 from '../assets/img/maghsad2.jpg'
+import maghsad3 from '../assets/img/maghsad3.jpg'
+import maghsad4 from '../assets/img/maghsad4.png'
+import maghsad5 from '../assets/img/maghsad5.png'
+import maghsad6 from '../assets/img/maghsad6.png'
+import maghsad7 from '../assets/img/maghsad7.png'
+import maghsad8 from '../assets/img/maghsad8.jpg'
+import maghsad9 from '../assets/img/maghsad9.jpg'
+import maghsad10 from '../assets/img/maghsad10.jpg'
+import maghsad11 from '../assets/img/maghsad11.jpg'
+import maghsad12 from '../assets/img/maghsad12.jpeg'
 
 export default function Section() {
   return (
     <section className='w-[100%] flex flex-col items-center my-20'>
+        {/* section1 */}
         <div className='w-[80%] md:flex justify-between'>
             <div className='md:w-[30%] rounded-xl border border-gray-300 mx-5 mt-4'>
                 <img src={villa1} alt="" />
@@ -24,6 +37,119 @@ export default function Section() {
                 <img src={villa4} alt="" />
                 <h4 className='text-center text-[18px] font-bold py-5'>اجاره آپارتمان مبله</h4>
             </div>
+        </div>
+        {/* section2 */}
+        <div className='w-[80%] my-20'>
+            <h2 className='text-[23px] font-bold my-3'>مقصدهای محبوب سفر</h2>
+            <h5 >شهرهای محبوب در بین مهمانان</h5>
+            <div className='md:flex justify-between  mt-5'>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad1} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>شمال</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad2} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>کردان</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad3} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>مشهد</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad4} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>رامسر</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+
+            </div>
+            {/* box2------------ */}
+            <div className='md:flex justify-between  mt-5'>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad5} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'> اجاره سوئیت در</p>
+                        <p className='font-bold'>تهران</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad6} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'> اجاره سوئیت در</p>
+                        <p className='font-bold'>کیش</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad7} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>رزرو بومگردی در </p>
+                        <p className='font-bold'>قشم</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad8} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>رشت</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+
+            </div>
+            {/* box3------------ */}
+            <div className='md:flex justify-between  mt-5'>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad9} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>ماسال</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad10} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'> اجاره کلبه در</p>
+                        <p className='font-bold'>اوسبلنگاه</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad11} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره ویلا</p>
+                        <p className='font-bold'>فیلبند</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div className='md:w-[25%] flex justify-between items-center border border-gray-300 rounded-xl p-2 ml-3'>
+                    <img className='w-[30%] rounded-xl ' src={maghsad12} alt="" />
+                    <div>
+                        <p className='text-[14px] text-gray-500'>اجاره آپارتمان مبله در</p>
+                        <p className='font-bold'>تهران</p>
+                    </div>
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+
+            </div>
+
         </div>
 
     </section>
