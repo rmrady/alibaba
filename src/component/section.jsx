@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import '../App.css'
 import villa1 from "../assets/img/villa1.png";
 import villa2 from "../assets/img/villa2.png";
 import villa3 from "../assets/img/villa3.png";
@@ -35,6 +36,10 @@ import section7_2 from "../assets/img/section7-2.jpg";
 import section7_3 from "../assets/img/section7-3.jpeg";
 import section7_4 from "../assets/img/section7-4.jpg";
 
+import section9_1 from "../assets/img/section9-1.webp";
+import section9_2 from "../assets/img/section9-2.webp";
+import section9_3 from "../assets/img/section9-3.webp";
+
 // Import Swiper React components
 import { Pagination, Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -44,6 +49,22 @@ import "../../node_modules/swiper/modules/pagination.css";
 import "../../node_modules/swiper/modules/Autoplay.css";
 
 export default function Section() {
+  const parent_div2 = useRef()
+  const parent_div3 = useRef()
+  const parent_div4 = useRef()
+  function show(e){
+    if(e.target.getAttribute('data-num') == 'two'){
+      parent_div2.current.classList.toggle('h-[180px]')
+    }
+    if(e.target.getAttribute('data-num') == 'tree'){
+      parent_div3.current.classList.toggle('h-[140px]')
+    }
+    if(e.target.getAttribute('data-num') == 'four'){
+      parent_div4.current.classList.toggle('h-[140px]')
+    }
+  }
+   
+ 
   return (
     <section className="w-[100%] flex flex-col items-center my-20">
       {/* section1 */}
@@ -449,23 +470,10 @@ export default function Section() {
       <div className="w-[100%] lg:w-[80%] mt-20">
         <h2 className="text-[20px] font-bold my-5">سوالات متداول</h2>
         <div className="border border-gray-300 rounded-2xl p-7">
-          <div className="h-[60px] overflow-hidden border-b border-gray-300 py-5">
-            <h2 className="flex justify-between text-[18px] font-bold pb-5 ">
-              <span>رزرو اینترنتی اقامتگاه در علی‌بابا چگونه است؟</span>
-              <i class="bi bi-chevron-down"></i>
-            </h2>
-            <p>
-              برای رزرو اقامتگاه کافیست وارد وب‌سایت یا اپلیکیشن علی‌بابا شوید.
-              روی گزینه «ویلا و اقامتگاه» بزنید. بعد از اینکه اطلاعاتی مانند
-              مقصد یا نوع اقامتگاهتان را تکمیل کردید، گزینه جستجو را بزنید و به
-              لیست کامل اقامتگاه‌ها دسترسی پیدا کنید. در نهایت اقامتگاه مدنظرتان
-              را انتخاب کنید و با انتخاب گزینه «مشاهده و رزرو» فرایند رزرو
-              اقامتگاه را تکمیل کنید.
-            </p>
-          </div>
+         
 
-          <div className="h-[80px] overflow-hidden border-b border-gray-300 py-5">
-            <h2 className="flex justify-between text-[18px] font-bold py-5 ">
+          <div ref={parent_div2} className="h-[80px] overflow-hidden border-b border-gray-300 py-5 transitionR">
+            <h2 data-num='two' onClick={show} className="flex justify-between text-[18px] font-bold cursor-pointer py-5 ">
               تاییدیه رزرو اقامتگاه در علی‌بابا چگونه است؟
               <i class="bi bi-chevron-down"></i>
             </h2>
@@ -480,8 +488,8 @@ export default function Section() {
             </p>
           </div>
 
-          <div className="h-[80px] overflow-hidden border-b border-gray-300 py-5">
-            <h2 className="flex justify-between text-[18px] font-bold py-5 ">
+          <div ref={parent_div3} className="h-[80px] overflow-hidden border-b border-gray-300 py-5 transitionR">
+            <h2 data-num='tree' onClick={show} className="flex justify-between text-[18px] font-bold cursor-pointer py-5 ">
               رزرو اقامتگاه در علی‌بابا برای چه مدت زمانی امکان‌پذیر است؟
               <i class="bi bi-chevron-down"></i>
             </h2>
@@ -490,8 +498,8 @@ export default function Section() {
             </p>
           </div>
 
-          <div className="h-[80px] overflow-hidden py-5">
-            <h2 className="flex justify-between text-[18px] font-bold py-5">
+          <div ref={parent_div4} className="h-[80px] overflow-hidden transitionR py-5">
+            <h2 data-num='four' onClick={show} className="flex justify-between text-[18px] font-bold cursor-pointer py-5">
               امکان رزرو اقامتگاه در کدام شهرها وجود دارد؟
               <i class="bi bi-chevron-down"></i>
             </h2>
@@ -499,6 +507,8 @@ export default function Section() {
             از شمالی‌ترین نقطه کشور تا جنوبی‌ترین نقطه. از شرق تا غرب. کافیست مقصدتان را انتخاب کنید و اقامتگاه‌های علی‌بابا را ببینید.
             </p>
           </div>
+
+          
         </div>
       </div>
 
@@ -513,6 +523,43 @@ export default function Section() {
 
 از آنجایی که لیست اقامتگاه‌های علی‌بابا بسیار زیاد است، شما می‌توانید با کمک فیلترهای وب‌سایت انتخاب‌هایتان را هدفمندتر کنید. دنبال کلبه هستید یا ویلا؟ اقامتگاه‌های بوم‌گردی را بیشتر می‌پسندید یا ترجیح می‌دهید سوئیت رزرو کنید؟ شاید هم با خانه‌های سنتی موافق‌تر هستید یا اصلا می‌خواهید یک آپارتمان برای اقامتتان انتخاب کنید. ممکن است هیچکدام از این گزینه‌ها برایتان جذاب نباشد و بخواهید مجتمع‌های اقامتی یا حتی مسافرخانه رزرو کنید. انتخابتان هر کدام که باشد، فقط کافیست آن را در فیلترهای وب‌سایت علی‌بابا علامت بزنید تا لیست نمایش محدودتر و هدفمندتر شود. علاوه بر این، فیلترهای پرکاربرد دیگری هم هستند که می‌توانند شما را در انتخاب اقامتگاه مدنظرتان راهنمایی کنند؛ مثلا اگر برای شما امکان برگزاری مراسم و مهمانی یا ورود حیوانات خانگی مسئله است، پس حتما تیک آن را فعال کنید تا فقط همان اقامتگاه‌ها را ببینید. جنگلی، روستایی، کوهستانی، شهری یا ساحلی؟ فرقی ندارد؛ لیست کامل اقامتگاه‌های علی‌بابا منتظر میزبانی از شماست.</p>
       </div>
+
+      <div className="w-[80%] my-14">
+        <div className="w-[100%] flex text-center mt-4">
+            <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3"> اجاره ویلا شمال</p>
+            <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا کردان</p>
+            <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره سوئیت در مشهد</p>
+            <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره سوئیت در تهران</p>
+            <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در رامسر</p>
+            <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در رشت</p>
+        </div>
+        <div className="w-[100%] flex text-center mt-4">
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3"> اجاره ویلا در ساری</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره سوئیت در کیش</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در طالقان</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در دماوند</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">رزرو بوم گردی قشم</p>
+        </div>
+        <div className="w-[100%] flex text-center mt-4">
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در نوشهر</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در چالوس</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا ماسال</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا لفور</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره کلبه او لسبلنگاه</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا اطراف تهران</p>
+        </div>
+
+        <div className="w-[100%] flex text-center mt-4">
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3"> اجاره کلبه چوبی</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره کلبه سوئیسی</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در کیش</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در لواسان</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره ویلا در گیلان</p>
+          <p className="w-[40%] border border-gray-300 rounded-xl text-gray-600 text-[15px] py-1 ml-3">اجاره آپارتمان مبله در تهران</p>
+        </div>
+      </div>
+      <div className="w-[100%] border-b border-gray-300"></div>
     </section>
   );
 }
