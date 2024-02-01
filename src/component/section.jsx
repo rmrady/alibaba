@@ -36,9 +36,7 @@ import section7_2 from "../assets/img/section7-2.jpg";
 import section7_3 from "../assets/img/section7-3.jpeg";
 import section7_4 from "../assets/img/section7-4.jpg";
 
-import section9_1 from "../assets/img/section9-1.webp";
-import section9_2 from "../assets/img/section9-2.webp";
-import section9_3 from "../assets/img/section9-3.webp";
+
 
 // Import Swiper React components
 import { Pagination, Autoplay, A11y } from "swiper/modules";
@@ -66,7 +64,7 @@ export default function Section() {
    
  
   return (
-    <section className="w-[100%] flex flex-col items-center my-20">
+    <section className="w-[100%] flex flex-col items-center my-10">
       {/* section1 */}
       <div className="w-[80%] md:flex justify-between">
         <div className="md:w-[30%] rounded-xl border border-gray-300 mx-5 mt-4">
