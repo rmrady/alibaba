@@ -1,59 +1,3 @@
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 <br/>
 <div align="center">
 <a href="https://github.com/ShaanCoding/ReadME-Generator">
@@ -75,7 +19,7 @@ this site is simulated the site Alibaba
 
  ## About The Project
 
-![Product Screenshot](src/assets/img/Safar_Card3.png")
+![Product Screenshot](src/assets/img/Safar_Card3.png)
 
 There were many sites available to build, but I chose this site for practice because it was interesting and wonderful for me
  ### Built With
